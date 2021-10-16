@@ -1,0 +1,62 @@
+/*  
+
+CSS / app
+
+*/
+
+.app {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.app-content {
+  overflow: auto;
+  scroll-behavior: smooth;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background: url("../assets/images/Background.png");
+  background-repeat: repeat;
+  height: 100%;
+  backdrop-filter: blur(1px);
+  z-index: 999;
+  align-items: center;
+}
+
+.app-footer {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4f4f4f;
+}
+
+.app-footer > a {
+  margin: 0 6px;
+  color: #333;
+}
+
+.app-footer > svg {
+  font-size: 20px;
+  margin-top: -1px;
+  margin-left: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 25px 2px rgb(136, 136, 136);
+  border-radius: 100%;
+}
+
+.app-footer > svg:hover {
+  opacity: 0.6;
+}
+
+/*
+
+---------- RESPONSIVE ---------- 
+
+*/

@@ -1,0 +1,108 @@
+/*  
+
+CSS / header
+
+*/
+
+.app-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.app-header__banner {
+  width: 100%;
+  height: 550px;
+  margin: 0px;
+  background-image: url("../assets/images/capa.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.app-header__banner > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 0px;
+}
+
+.app-header > p {
+  margin-bottom: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.app-header__content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  margin-top: -110px;
+  height: 450px;
+  background: url("../assets/images/Background.png");
+  background-repeat: repeat;
+  border-radius: 4px;
+  box-shadow: 0 -35px 35px 10px rgba(0, 0, 0, 0.267);
+}
+
+.app-header__content > p {
+  font-family: Proxima Nova Light;
+  font-size: 34px;
+  color: #333;
+  font-weight: 600;
+}
+
+.app-header__content > h5 {
+  margin: 15px 0;
+  color: #333;
+  font-size: 52px;
+}
+
+.app-header__content > div > img {
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+  object-fit: cover;
+  border: 4px #fff solid;
+  margin-right: 40px;
+}
+
+.app-header__content > div {
+  display: flex;
+  align-items: center;
+}
+
+.app-header__content > div > section {
+  border-top: 4px solid #c3bb62;
+}
+
+.app-header__content > div > section > p {
+  margin-top: 15px;
+  font-family: Proxima Nova Light;
+  color: #4f4f4f;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.app-header__content > div > section > h5 {
+  margin-top: 10px;
+  font-family: Proxima Nova Light;
+  color: #4f4f4f;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+/*
+
+---------- RESPONSIVE ---------- 
+
+*/
+
+@media (max-width: 920px) {
+}
+
+@media (max-width: 550px) {
+}
