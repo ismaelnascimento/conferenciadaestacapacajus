@@ -7,12 +7,30 @@ import "../styles/header.css";
 import PersonIcon from "../assets/icons/person.svg";
 
 // back
-import image_elder from "../assets/images/Elder.png";
+import back from "../assets/images/back_2022.png";
+
+//
+import image_elder from "../assets/images/elder lira.png";
 
 function header() {
   return (
     <div className="app-header">
-      <div className="app-header__banner"></div>
+      <div className="app-header__banner">
+        <img src={back} alt="" />
+        <div className="app-header__banner--text-top">
+          <section />
+          <p>12&13</p>
+          <h5>NOV</h5>
+          <span>2022</span>
+        </div>
+        <div className="app-header__banner--text">
+          <p>
+            Acheigai-vos a mim e achegar-<br></br>me-ei a vós(..)
+          </p>
+          <section />
+          <h5>Doutrina e Convênios 88:63</h5>
+        </div>
+      </div>
 
       <div className="app-header__content">
         <p>CONFERÊNCIA SEMESTRAL</p>
@@ -21,7 +39,7 @@ function header() {
         <div>
           <img src={image_elder} alt="Image_Elder" />
           <section>
-            <p>Presidida pelo Élder Luiz C. D. Queiroz</p>
+            <p>Presidida pelo Elder Lira</p>
             <h5>Dos Setenta</h5>
           </section>
         </div>

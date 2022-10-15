@@ -10,10 +10,9 @@ CSS / count
   justify-content: center;
   width: 63%;
   backdrop-filter: blur(4px);
-  box-shadow: 0 0 45px 5px rgba(110, 110, 110, 0.295);
   border-radius: 5px;
-  padding: 35px 20px;
-  margin-top: 30px;
+  margin: -10px 0;
+  margin-bottom: 50px;
 }
 
 .app-count > p {
@@ -30,7 +29,7 @@ CSS / count
 }
 
 .app-count > div > p {
-  font-size: 42px;
+  font-size: 55px;
   font-weight: 600;
   font-family: Proxima Nova Light;
   color: #4f4f4f;

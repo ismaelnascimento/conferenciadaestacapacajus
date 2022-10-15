@@ -1,15 +1,13 @@
-import React from 'react';
+import React from "react";
 
 // css
-import './styles/app.css';
+import "./styles/app.css";
 
 // ...
-import Screens from './screens/index';
+import Screens from "./screens/index";
 
 function App() {
-  return (
-    <Screens />
-  );
+  return <Screens />;
 }
 
 export default App;
