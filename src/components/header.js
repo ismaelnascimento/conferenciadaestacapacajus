@@ -25,7 +25,7 @@ function header() {
         </div>
         <div className="app-header__banner--text">
           <p>
-            Acheigai-vos a mim e achegar-<br></br>me-ei a vós(..)
+            Achegai-vos a mim e achegar-<br></br>me-ei a vós(..)
           </p>
           <section />
           <h5>Doutrina e Convênios 88:63</h5>
