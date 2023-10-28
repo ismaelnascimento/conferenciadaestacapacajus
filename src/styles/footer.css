@@ -15,7 +15,7 @@ CSS / footer
 .footer > div {
   backdrop-filter: blur(4px);
   border-radius: 5px;
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   flex-direction: column;
 }
@@ -24,7 +24,7 @@ CSS / footer
   height: 100%;
   width: 8px;
   margin: 0 25px;
-  background-color: rgb(63, 63, 63);
+  background-color: var(--color-border);
 }
 
 .footer > div > header {
@@ -33,15 +33,21 @@ CSS / footer
 }
 
 .footer > div > header > p {
-  font-size: 18px;
+  font-size: 38px;
   font-weight: 500;
   margin-right: auto;
-  color: #333;
+  color: var(--color-border);
+  display: flex;
+  align-items: center;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 .footer a {
-  font-size: 14px;
-  color: #bdb23b;
+  font-size: 13px;
+  color: var(--color-border);
+  font-weight: 400;
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
 }
 
 .footer > div > header > img {
@@ -55,12 +61,36 @@ CSS / footer
 }
 
 .footer > div > div {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-progamation {
+  display: flex;
+  align-items: center;
   margin-top: 10px;
 }
-
-.footer > div > div > p {
-  font-size: 14px;
+.footer-progamation > p {
   color: #4f4f4f;
+  font-size: 28px;
+  font-weight: 700;
+  margin-right: 15px;
+}
+.footer-progamation > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-progamation > div > p {
+  font-size: 17px;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  color: var(--color-border);
+}
+
+.footer-2 {
+
 }
 
 /*
@@ -75,7 +105,10 @@ CSS / footer
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 700px) { 
+  .footer > div {
+    width: 100%;
+  }
   .footer {
     flex-direction: column;
   }
@@ -85,7 +118,7 @@ CSS / footer
   }
 
   .footer-2 {
-    margin-top: 12px;
+    margin-top: 20px;
     margin-left: 0 !important;
   }
 }

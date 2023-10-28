@@ -40,6 +40,7 @@ CSS / app
 .app-footer > a {
   margin: 0 6px;
   color: #333;
+  font-weight: 600;
 }
 
 .app-footer > svg {

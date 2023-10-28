@@ -11,7 +11,7 @@ CSS / count
   width: 63%;
   backdrop-filter: blur(4px);
   border-radius: 5px;
-  margin: -10px 0;
+  margin-top: 70px;
   margin-bottom: 50px;
 }
 
@@ -29,9 +29,8 @@ CSS / count
 }
 
 .app-count > div > p {
-  font-size: 55px;
-  font-weight: 600;
-  font-family: Proxima Nova Light;
+  font-size: 65px;
+  font-weight: 700;
   color: #4f4f4f;
 }
 
@@ -39,7 +38,6 @@ CSS / count
   font-size: 15px;
   font-weight: 200;
   margin-top: 4px;
-  font-family: Proxima Nova Light;
   color: #4f4f4f;
 }
 
